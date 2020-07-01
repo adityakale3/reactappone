@@ -1,0 +1,11 @@
+.parentElement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.childElement:nth-child(2){
+    color:green;
+}
