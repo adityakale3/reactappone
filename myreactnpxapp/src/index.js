@@ -4,12 +4,14 @@ import './index.css';
 import App from './App';
 import Footer from './footer';
 import Header from './header';
+import Pro from './propsEx';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header/>
     <App />
+    <Pro name="Aditya" email="adityakale3@gmail.com"/>
     <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
