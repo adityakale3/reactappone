@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Footer from './footer';
-import './footer.css';
+import Header from './header';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Header/>
     <App />
     <Footer/>
   </React.StrictMode>,
