@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 
 // Use React.Fragment insead of empty div
+// OR <> </> Empty wrap
 
 // Props in Class
 class Student extends Component{
