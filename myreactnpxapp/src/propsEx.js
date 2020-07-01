@@ -18,4 +18,11 @@ class Student extends Component{
             </div>);
     }
 }
+
+
+// Alternatively Values can be set using
+Student.defaultProps= {
+    name : "Username",
+    email : "Example@example.com"
+}
 export default Student;
