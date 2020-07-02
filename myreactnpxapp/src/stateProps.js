@@ -29,7 +29,12 @@ class Student extends Component{
             email : this.props.email,
             count : this.props.count
         };
+        // No need to bind if click me is arrow function
         this.clickMe = this.clickMe.bind(this);
+        // clickMe = () => {
+        //     let count = this.state.count;
+        //     this.setState({count : ++count})
+        // }
     }
 
     clickMe(){
